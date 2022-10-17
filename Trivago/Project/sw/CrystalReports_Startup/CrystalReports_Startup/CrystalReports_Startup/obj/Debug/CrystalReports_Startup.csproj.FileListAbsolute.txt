@@ -1,0 +1,9 @@
+c:\users\hp\documents\visual studio 2013\Projects\CrystalReports_Startup\CrystalReports_Startup\bin\Debug\CrystalReports_Startup.exe.config
+c:\users\hp\documents\visual studio 2013\Projects\CrystalReports_Startup\CrystalReports_Startup\bin\Debug\CrystalReports_Startup.exe
+c:\users\hp\documents\visual studio 2013\Projects\CrystalReports_Startup\CrystalReports_Startup\bin\Debug\CrystalReports_Startup.pdb
+c:\users\hp\documents\visual studio 2013\Projects\CrystalReports_Startup\CrystalReports_Startup\obj\Debug\CrystalReports_Startup.csprojResolveAssemblyReference.cache
+c:\users\hp\documents\visual studio 2013\Projects\CrystalReports_Startup\CrystalReports_Startup\obj\Debug\CrystalReports_Startup.Form1.resources
+c:\users\hp\documents\visual studio 2013\Projects\CrystalReports_Startup\CrystalReports_Startup\obj\Debug\CrystalReports_Startup.Properties.Resources.resources
+c:\users\hp\documents\visual studio 2013\Projects\CrystalReports_Startup\CrystalReports_Startup\obj\Debug\CrystalReports_Startup.csproj.GenerateResource.Cache
+c:\users\hp\documents\visual studio 2013\Projects\CrystalReports_Startup\CrystalReports_Startup\obj\Debug\CrystalReports_Startup.exe
+c:\users\hp\documents\visual studio 2013\Projects\CrystalReports_Startup\CrystalReports_Startup\obj\Debug\CrystalReports_Startup.pdb

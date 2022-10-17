@@ -1,0 +1,9 @@
+CREATE OR REPLACE
+PROCEDURE GETROOMS(DestName in VARCHAR2,  HotelName in VARCHAR2, idout SYS_RECRSOR INTEGER)
+AS
+BEGIN
+  select r.RoomID 
+  into idout
+  from RoomData r, HotelInfo h , DestinationData d 
+  where r.HotelID = h.HotelID and h.HotelLocation = DestName and h.HotelName = HotelName;
+END GETROOMS;

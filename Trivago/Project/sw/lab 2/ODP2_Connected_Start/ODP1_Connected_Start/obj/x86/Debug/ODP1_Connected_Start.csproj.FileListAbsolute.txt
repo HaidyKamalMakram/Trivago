@@ -1,0 +1,28 @@
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.exe
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.pdb
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\bin\Debug\Oracle.DataAccess.dll
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.ActorsForm.resources
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.exe
+C:\Documents and Settings\Administrator\Desktop\ODP1_Connected_Start\ODP1_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.pdb
+D:\New\TA materials\2020\second term\db\labs\lab2\ODP2_Connected_Start\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.exe
+D:\New\TA materials\2020\second term\db\labs\lab2\ODP2_Connected_Start\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.pdb
+C:\Users\hp\Desktop\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.exe
+C:\Users\hp\Desktop\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.pdb
+C:\Users\hp\Desktop\ODP2_Connected_Start\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.exe
+C:\Users\hp\Desktop\ODP2_Connected_Start\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.pdb
+C:\Users\hp\Desktop\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.ActorsForm.resources
+C:\Users\hp\Desktop\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.Properties.Resources.resources
+C:\Users\hp\Desktop\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.GenerateResource.Cache
+C:\Users\hp\Desktop\Project\sw\lab 2\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.exe
+C:\Users\hp\Desktop\Project\sw\lab 2\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.pdb
+C:\Users\hp\Desktop\Project\sw\lab 2\ODP2_Connected_Start\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.exe
+C:\Users\hp\Desktop\Project\sw\lab 2\ODP2_Connected_Start\ODP1_Connected_Start\bin\Debug\ODP1_Connected_Start.pdb
+C:\Users\hp\Desktop\Project\sw\lab 2\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\Project\sw\lab 2\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.ActorsForm.resources
+C:\Users\hp\Desktop\Project\sw\lab 2\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.Properties.Resources.resources
+C:\Users\hp\Desktop\Project\sw\lab 2\ODP2_Connected_Start\ODP1_Connected_Start\obj\x86\Debug\ODP1_Connected_Start.csproj.GenerateResource.Cache

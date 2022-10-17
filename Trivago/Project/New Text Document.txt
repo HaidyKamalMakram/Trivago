@@ -1,0 +1,181 @@
+CREATE TABLE UserInfo(
+  UserID Number (13) PRIMARY KEY,
+  UserName varchar2(23) NOT NULL,
+  UserGender varchar2 (1), 
+  UserPhone Number(11)
+);
+CREATE TABLE HotelInfo(
+  HotelID Number (11) PRIMARY KEY,
+  HotelName varchar2(23) NOT NULL, HotelPhoneNumber Number (11), 
+  HotelLocation varchar2(23), AvailableNumberOfRooms Number(11)
+);
+CREATE TABLE RoomData(
+  RoomID Number (5) PRIMARY KEY,
+  RoomPrice Number(6), RoomStatus varchar2(23),
+  Capacity Number(4), HotelID Number(11) REFERENCES HotelInfo(HotelID),
+  ServiceID Number(11) REFERENCES ServiceData(ServiceID)
+);
+CREATE TABLE DestinationData(
+  DestID number(4) primary key,
+  DestName varchar2(23) not NULL, 
+  DestLocation Varchar2(23),
+  NumberOfHotels Number(30), 
+  HotelID Number(11) REFERENCES HotelInfo(HotelID)
+);
+CREATE TABLE PaymentData(
+  PaymentID Number(4) PRIMARY KEY, 
+  payMethod varchar2(23), Paydate Date, 
+  UserID number(13) References UserInfo(UserID)
+);
+ CREATE TABLE BookingD(
+  BookingID Number(4) PRIMARY KEY, 
+  BookingArrivalDate Date, BookingDepartureDate Date, BookingCost Number(5),
+  UserID number(13) References UserInfo(UserID),
+  PaymentID Number(4) References PaymentData(PaymentID)
+);
+ CREATE TABLE ServiceData(
+  ServiceID Number(11) PRIMARY KEY, 
+  lunch varchar2(1),
+  activities varchar2 (1),
+  UserID number(13) References UserInfo(UserID),
+  PaymentID Number(4) References PaymentData(PaymentID),
+  BookingID Number(4) References BookingD(BookingID)
+);
+insert into UserInfo values(
+1, 'Kristen Pattinson', 'F', 123
+  );
+insert into UserInfo values(
+2, 'Robert Stewart', 'M', 234
+  );
+insert into UserInfo values(
+3, 'Taylor Pattinson', 'M', 345
+  );
+  insert into UserInfo values(
+4, 'Rupert Lautner', 'M', 456
+  );
+insert into UserInfo values(
+5, 'Daniel Grint', 'M', 567
+  );
+insert into UserInfo values(
+6, 'Ralph Radcliffe', 'M', 678
+  );
+insert into UserInfo values(
+7, 'Hank Fiennes', 'M', 789
+  );
+insert into UserInfo values(
+8, 'Jayma Cleese', 'F', 891
+  );
+insert into UserInfo values(
+9, 'Sofia Luckey', 'F', 912
+  );
+insert into UserInfo values(
+10, 'Joan Myers', 'F', 129
+  );
+insert into HotelInfo values(
+  1, 'InterContinental', 50, 'Cairo', 100
+  );
+insert into HotelInfo values(
+  2, 'Hotel Dusit Thani', 40, 'Cairo', 150
+  );
+insert into HotelInfo values(
+  3, 'Royal Albatros Moderna', 30, ' Sharm el-Sheikh', 170
+  );
+insert into HotelInfo values(
+  4, 'Iberotel Palace', 35, 'Sharm el-Sheikh', 180
+  );
+insert into HotelInfo values(
+  5, 'Jaz Dahabeya', 44, 'Dahab', 190
+  );
+insert into RoomData values(
+  1, 3500, 'Booked', 2, 1
+  );
+insert into RoomData values(
+  2, 4000, 'Not Booked', 3, 1
+  );
+insert into RoomData values(
+  3, 2000, 'Not Booked', 2, 3
+  );
+insert into RoomData values(
+  4, 5000, 'Booked', 3, 2
+  );
+insert into RoomData values(
+  5, 1500, 'Not Booked', 3, 4
+  );
+insert into RoomData values(
+  6, 2700, 'Booked', 1, 4
+  );
+insert into RoomData values(
+  7, 3800, 'Not Booked', 1, 3
+  );
+insert into RoomData values(
+  8, 5500, 'Not Booked', 2, 5
+  );
+insert into RoomData values(
+  9, 4860, 'Booked', 1, 5
+  );
+insert into RoomData values(
+  10, 3100, 'Booked', 3, 5
+  );
+insert into DestinationData values(
+  1,'Cairo', ' 23.2 km to City centre', 50, 1
+  ) ;   
+insert into DestinationData values(
+  2,'Cairo', ' 10 km to City centre', 40, 2
+  );    
+insert into DestinationData values(
+  3,'Sharm el-Sheikh', '4.8 km to City centre', 44, 3
+  );    
+insert into DestinationData values(
+  4,'Sharm el-Sheikh', '7.6 km to City centre' , 42, 4
+  );    
+insert into DestinationData values(
+  5,'Dahab', '0.1 km from the beach', 30, 5
+  );    
+insert into BookingD values(
+  1, '01-JAN-22', '05-JAN-22', 3500, 1, 1 
+  ); 
+insert into BookingD values(
+  2, '10-JAN-22', '12-JAN-22', 4500, 2, 2
+  );  
+insert into BookingD values(
+  3, '20-JAN-22', '24-JAN-22', 3500, 3, 3
+  );  
+insert into BookingD values(
+  4, '01-FEB-22', '05-FEB-22', 3500, 4, 4
+  );   
+insert into BookingD values(
+  5, '15-FEB-22', '20-FEB-22', 3500, 5, 5
+  );   
+ insert into PaymentData values(
+  1, 'Cash', '05-JAN-22', 1
+  );
+insert into PaymentData values(
+  2, 'Visa', '12-JAN-22', 2
+  );
+
+insert into PaymentData values(
+  3, 'Visa', '24-JAN-22', 3
+  );
+
+insert into PaymentData values(
+  4, 'Cash', '05-FEB-22', 4
+  );
+
+insert into PaymentData values(
+  5, 'Visa', '20-FEB-22', 5
+  );
+  
+
+insert into ServiceData values(
+  1, 'Y', 'Y', 1,1,1
+  );
+  insert into ServiceData values(
+  2, 'Y', 'N', 2,2,2
+  );
+    insert into ServiceData values(
+  3, 'N', 'N', 3,3,3
+  );
+    insert into ServiceData values(
+  4, 'N', 'Y', 4,4,4
+  );
+  
